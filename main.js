@@ -26,7 +26,7 @@ const prophecyArray = [
     {
         name: 'prophecy_5',
         img: 'images/image_5.jpg',
-        text: 'А хто тут такий молодець? Хто тут така чудова людинонька? Так, це ти З усіх сьогодні сторін будеш чути тільки хороше про себе. Але тільки не зазнавайся, кажуть з високої гори дуже боляче падати.',
+        text: 'А хто тут такий молодець? Хто тут така чудова людинонька? Так, це ти! З усіх сьогодні сторін будеш чути тільки хороше про себе. Але тільки не зазнавайся, кажуть з високої гори дуже боляче падати.',
     },
 
     {
@@ -44,7 +44,7 @@ const prophecyArray = [
     {
         name: 'prophecy_8',
         img: 'images/image_8.jpg',
-        text: 'Очікуй сьогодні загадки рівня Шерлока Голмса, ох і добряче ж тобі доведеться помізкувати над нею. І можливо, не тільки сьогодні.',
+        text: 'Очікуй сьогодні загадку рівня Шерлока Голмса. Ох і добряче ж тобі доведеться помізкувати над нею. І можливо, не тільки сьогодні.',
     },
 
     {
@@ -86,27 +86,3 @@ function getRandomProphecy() {
     prophecy.textContent = randomProphecy.text;
 }
 
-
-
-// function getRandomProphecy() {
-//     randomIndex = Math.floor(Math.random() * prophecyArray.length);
-//     randomProphecy = prophecyArray(randomIndex);
-//     document.getElementById().src = `./images/${selectedProphecy}`
-// }
-
-
-
-
-
-
-// let getProphecy = () => {
-//     jokeContainer.classList.remove("fade");
-//     fetch(url)
-//     .then(data => data.json())
-//     .then(item =>{
-//         jokeContainer.textContent = `${item.joke}`;
-//         jokeContainer.classList.add("fade");
-//     });
-// }
-// btn.addEventListener("click", getProphecy);
-// getProphecy();
